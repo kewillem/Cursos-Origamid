@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+:root{
+  --Amarelo1: #febe01; /*(preço/botão)*/
+  --Amarelo2: #332200; /*(color botão)*/
+  --Preto: #111;
+  --Cinza: #b2b2b2;
+}
+
+div{
+  background-color: var(--Preto);
+  border-radius: 4px;
+  margin: 50px;
+}
+h1{
+  color: var(--Preto);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 0px 0px 20px;
+}
+span{
+  color: var(--Amarelo1);
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  color: var(--Cinza);
+  padding: 0px 0px 0px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button{
+  color: var(--Amarelo2);
+  background-color: var(--Amarelo1);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+  padding: 7px;
+  margin: 0px 0px 20px 20px;
+}

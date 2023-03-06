@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+div{
+  background-color: green;
+  width: 140px;
+  height: 80px;
+  padding: 20px;
+  border: 10px solid #111;
+  margin: 30px;
+}
+
+body{
+  margin: 0px;
+}
+
+h1{
+  background-color: #84e;
+  padding: 20px;
+  width: 100px;
+  border: 1px solid #111;
+  margin: 40px;
+}

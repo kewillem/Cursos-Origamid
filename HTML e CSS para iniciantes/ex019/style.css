@@ -1,0 +1,16 @@
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background: #eee;
+  color: #000;
+}

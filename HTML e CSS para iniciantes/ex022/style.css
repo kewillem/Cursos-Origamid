@@ -1,0 +1,24 @@
+a{
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: aquamarine;
+  color: black;
+}
+a:hover{
+  background-color: cadetblue;
+}
+a:focus{
+  background-color: red;
+  color: blueviolet;
+}
+a:active{
+  background-color: blanchedalmond;
+  color: blue;
+}
+/*a:visited{
+  background-color: chocolate;
+  color: aliceblue;
+}*/

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Fira Sans-REGULAR';
+  src: url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+  font-family: 'Fira Sans-BOLD';
+  src: url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+}
+:root{
+  --corPadrao: #141414;
+}
+body{
+  font-family: "Fira Sans-REGULAR", Arial, sans-serif;
+  margin: 0px;
+  color: var(--corPadrao);
+  margin-bottom: 1000px;
+}
+h1, h2, h3, p{
+  margin: 0px;
+}
+ul{
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+.subtitulo{
+  font-size: 8rem;
+  word-break: break-all; /*quebra palavras*/
+  line-height: 1;
+  text-transform: uppercase;
+  max-width: 4ch;
+}
+@media (max-width: 800px){
+  .subtitulo{
+    font-size: 3rem;
+    text-transform: capitalize; /*deixa só a primeira letra maiuscula*/
+    max-width: initial !important; /*volta para o valor inicial da proporção*/
+  }
+}

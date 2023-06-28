@@ -12,7 +12,6 @@ body{
   font-family: "Fira Sans-REGULAR", Arial, sans-serif;
   margin: 0px;
   color: var(--corPadrao);
-  margin-bottom: 1000px;
 }
 h1, h2, h3, p{
   margin: 0px;

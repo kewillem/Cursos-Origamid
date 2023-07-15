@@ -1,0 +1,24 @@
+body{
+    font-size: 2rem;
+}
+#produtos{
+    color: green;
+}
+.titulo{
+    color: tomato;
+    padding: 10px;
+}
+.titulo.teste{
+    color: blue;
+}
+#intro #servicos{
+    color: pink;
+}
+html body section h2{
+    border-left: 8px solid lightblue;
+}
+h2{
+    color: black !important;
+    /*o comando !important prioriza algo na hierarquia fazendo com que ele se torne mais importante independente do nivel em que se encontra */
+}
+/* tudo importa a partir do nivel de especifidade do seletor */

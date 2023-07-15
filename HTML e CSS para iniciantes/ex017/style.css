@@ -16,6 +16,13 @@
   
   conteúdo principal: máximo 1000px*/
 }
+@media (prefers-color-scheme: dark){
+  :root{
+      --cinza-fundo: #222;
+      --cinza-texto: #eee;
+  }
+  }
+  
 body{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;

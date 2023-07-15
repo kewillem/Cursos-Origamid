@@ -2,3 +2,43 @@
 border: 2px solid tomato;
 }
 /* [] serve para selecionar o campo escolhido */
+[href="#contato"]{
+    border: 2px solid tomato;
+}
+/* não se pode dar espaço pois signica herança */
+[href^="#"]{
+background: tomato;
+}
+/*seleciona todos que tiverem # no inicio */
+[href$=".com"]{
+    background: tomato;
+    }
+/*seleciona todos que terminarem com # .com*/
+
+section > h2{
+  background: green;  
+}
+/*seleciona apenas o h2 diretamente filho de section*/
+p{
+    margin: 0px;
+}
+article{
+    background: green;
+    padding: 10px;
+}
+p{
+    margin-bottom: 20px;
+}
+article p:last-child{
+    margin-bottom: 0px;
+}
+/*seleciona apenas o ultimo filho que é o ultimo p do article*/
+
+p + p{
+    margin-top: 20px;
+}
+/*seleciona todos p que tiverem outro p anterior*/
+* {
+    border: 5px solid black;
+}
+/*seleciona todos os elementos do site*/

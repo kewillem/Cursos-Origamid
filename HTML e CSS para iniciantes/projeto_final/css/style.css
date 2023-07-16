@@ -1,41 +1,11 @@
-body{
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-ul{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
-.header-bg{
-    background-color: #000;
-}
-.header{
-    display: flex;
-    flex-wrap: wrap;/*faz com que ele quebre*/
-    gap: 20px;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 20px;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.header-menu{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-}
-.header-menu a{
-    display: inline-block;
-    color: #fff;
-    font-size: 18px;
-    padding: 16px 0px;
-}
-@media (max-width: 800px){
-    
-}
+/* global */
+@import url(../css/global/header.css);
+@import url(../css/global/global.css);
+
+/* home */
+@import url(../css/home/introducao.css);
+
+/* utilidades */
+@import url(../css/utilidades/componentes.css);
+@import url(../css/utilidades/tipografia.css);
+@import url(../css/utilidades/cores.css);

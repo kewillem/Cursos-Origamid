@@ -70,3 +70,17 @@ console.log(autor.toUpperCase()); //retorna todos os caracteres do html em letra
 console.log(autor.toLowerCase()); //retorna todos os caracteres do html em letra minuscula
 const decimal = 20.99; //valor quebrado
 console.log(decimal.toFixed()); //arredonda valores decimais em formato de string
+
+//function
+function logCurso(){ //criando a função
+    const linguagem = 'javascript';
+    console.log(linguagem);
+}
+
+logCurso(); //executando a função
+
+function logCurso(linguagem){ //criando a função
+    console.log(linguagem);
+}
+
+logCurso('javascript');

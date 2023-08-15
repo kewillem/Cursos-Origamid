@@ -38,13 +38,18 @@
     background: url(../../img/icones/seta-abrir.svg);
     transition: 0.3s;
 }
-.perguntas button:hover::after{
+.perguntas button:hover::after,
+.perguntas button[aria-expanded="true"]::after{
     transform: rotate(180deg); /*faz a setinha rodar*/
 }
 .perguntas dd{
+    display: none;
+}
+.perguntas dd.ativa{
     padding-left: 20px;
     padding-top: 16px;
     max-width: 80ch;
+    display: block;
 }
 @media (max-width: 800px){
     .perguntas{

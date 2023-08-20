@@ -1,7 +1,19 @@
-[data-anime]{
+.js [data-anime]{
     opacity: 0;
 }
-.anime{
+.js .fateInDown{
+    transform: translate3d(0, -20px, 0);
+}
+.js .fateInUp{
+    transform: translate3d(0, 20px, 0);
+}
+.js .fateInRight{
+    transform: translate3d(20px, 0, 0);
+}
+.js .fateInLeft{
+    transform: translate3d(-20px, 0, 0);
+}
+.js .anime{
     opacity: 1;
     transform: none;
     transition: transform 0.8s, opacity 0.8s;

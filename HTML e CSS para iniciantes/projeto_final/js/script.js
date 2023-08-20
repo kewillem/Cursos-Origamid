@@ -1,3 +1,5 @@
+const { ClipboardJS } = require("./plugins/clipboard.min");
+
 //ativar links do menu
 const links = document.querySelectorAll('.header-menu a');
 
